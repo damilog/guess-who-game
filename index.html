@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Who?</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="content">
+            <button class="btn" id="btn-home" onclick="location.href='home.html'">Home</button>
+            <button class="btn" id="btn-answer">정답 보기</button>
+            <button class="btn" id="btn-hint">힌트</button>
+            <button class="btn" id="btn-next">다음 문제</button>
+            <div class="clock-container">
+                <h2>00:10</h2>
+            </div>
+            <a class="score">점수 : 10점</a>
+            <a> || </a>
+            <a class="totalScore"> 총 점수 : 0점 </a>
+            <p class="hintWrap">🟢힌트🟢</p>
+            <div class="answerWrap"></div>
+            <form class="js-inputForm">
+                <input type="text" placeholder="정답을 입력하세요." autofocus />
+            </form>
+            <div class="imgWrap"></div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
